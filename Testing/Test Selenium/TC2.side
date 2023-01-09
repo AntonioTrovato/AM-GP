@@ -1,0 +1,775 @@
+{
+  "id": "54d35f1e-21c1-4b48-bff4-5b0ac405e5e5",
+  "version": "2.0",
+  "name": "TC2",
+  "url": "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp",
+  "tests": [{
+    "id": "9c11a849-8fd9-439f-9de6-62ddb24c6490",
+    "name": "TC 2.1",
+    "commands": [{
+      "id": "e7225abe-bc10-42d0-8c37-e036af740ec2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f89f48bb-c8a4-4ff0-a33d-41af0f673331",
+      "comment": "",
+      "command": "select",
+      "target": "id=ruoloMessaggio",
+      "targets": [],
+      "value": "label=Tecnico"
+    }, {
+      "id": "7da2e8fb-d344-467c-a353-1cf63e4c9afb",
+      "comment": "",
+      "command": "click",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51e1c50e-a279-4085-a2f8-36fb86088f14",
+      "comment": "",
+      "command": "type",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Corpo Prova"
+    }, {
+      "id": "318a9410-8061-4a0c-b1b4-6f86d375aafe",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "365c618d-33d1-42a1-bb6c-84f374a687d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8078d837-81cb-4254-af3f-8fdb06b3a06a",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='formNuovoMessaggioDiv']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": "L'oggetto del messaggio è vuoto! Non puoi inviare un messaggio con un oggetto vuoto"
+    }]
+  }, {
+    "id": "d2705075-63d6-44f7-9865-4bbf68dd825c",
+    "name": "TC 2.2",
+    "commands": [{
+      "id": "cf04b6b9-55a7-4a2f-8ba3-aec0c3394513",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp"
+    }, {
+      "id": "409e2f5f-4a84-4f29-8396-10ef9dcc12f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ce66411-1252-4f13-9898-35cc9736861a",
+      "comment": "",
+      "command": "select",
+      "target": "id=ruoloMessaggio",
+      "targets": [],
+      "value": "label=Tecnico"
+    }, {
+      "id": "2d09ffd4-8707-4573-af5e-af8fcde9045a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc4432d0-49c3-406b-b23c-9c9bbf93e3ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb02bfe2-b6a9-4f6e-8593-df7dd40ad5e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "SADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }, {
+      "id": "229483f5-1859-4ca0-a5ba-35e43828a087",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cf93091-a5d8-4daa-a7aa-939771e84d03",
+      "comment": "",
+      "command": "click",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b42fea96-2eeb-4658-98e7-18ddf9a47450",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='formNuovoMessaggioDiv']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": "L'oggetto del messaggio è vuoto! Non puoi inviare un messaggio con un oggetto vuoto"
+    }]
+  }, {
+    "id": "a2e96653-6ede-475c-a782-aee1beb3cbbf",
+    "name": "TC 2.3",
+    "commands": [{
+      "id": "e7abfe99-c5c6-4c58-b385-8297936ad06d",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp"
+    }, {
+      "id": "c88cb4cb-37f4-4995-9816-8c8e6c20a5b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80ddab7c-2c6d-4f7a-8784-893e70bbff6e",
+      "comment": "",
+      "command": "select",
+      "target": "id=ruoloMessaggio",
+      "targets": [],
+      "value": "label=Tecnico"
+    }, {
+      "id": "fb71fd1d-c7a7-4bfd-9c4c-7d599215edb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55d29f31-8657-498e-8c6b-5c6e88f76505",
+      "comment": "",
+      "command": "click",
+      "target": "id=destinatariMessaggio",
+      "targets": [
+        ["id=destinatariMessaggio", "id"],
+        ["name=destinatari", "name"],
+        ["css=#destinatariMessaggio", "css:finder"],
+        ["xpath=//select[@id='destinatariMessaggio']", "xpath:attributes"],
+        ["xpath=//span[@id='dynamicSelect']/select", "xpath:idRelative"],
+        ["xpath=//span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59d1c1d0-0a6d-4378-9c0e-ea06ff8a0645",
+      "comment": "",
+      "command": "click",
+      "target": "id=destinatariMessaggio",
+      "targets": [
+        ["id=destinatariMessaggio", "id"],
+        ["name=destinatari", "name"],
+        ["css=#destinatariMessaggio", "css:finder"],
+        ["xpath=//select[@id='destinatariMessaggio']", "xpath:attributes"],
+        ["xpath=//span[@id='dynamicSelect']/select", "xpath:idRelative"],
+        ["xpath=//span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb21a30f-6cb4-404f-8216-fb866e4541b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab98cfa-4c87-4546-938c-402c0e413426",
+      "comment": "",
+      "command": "type",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Prova Oggetto"
+    }, {
+      "id": "1adbcd39-520a-4260-a19d-633e4d0c8132",
+      "comment": "",
+      "command": "click",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4381c946-b48f-4637-8081-d3d712df8f10",
+      "comment": "",
+      "command": "type",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Corpo Esempio"
+    }, {
+      "id": "8f06416d-37e5-4345-8ae1-cd4bdd120e4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=buttonNuovoMessaggio",
+      "targets": [
+        ["id=buttonNuovoMessaggio", "id"],
+        ["css=#buttonNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='buttonNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//form[@id='nuovoMessaggioForm']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fabc50a-aea6-4e36-90d7-44c99dbfda1e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=th:nth-child(2)",
+      "targets": [
+        ["css=th:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='tableMessaggio']/tbody/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'Oggetto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "79f93559-7863-4c96-95e1-b66ac84b6536",
+    "name": "TC 2.4",
+    "commands": [{
+      "id": "4925b6eb-2f23-455a-849c-f2312d8c8899",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20ca83ff-0f91-425a-8826-da7f5c91ed03",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02b00f2d-f3d2-4cc6-873b-4476e290d034",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec51aead-1230-4aab-be5d-b96344fa8708",
+      "comment": "",
+      "command": "select",
+      "target": "id=ruoloMessaggio",
+      "targets": [],
+      "value": "label=Tecnico"
+    }, {
+      "id": "19ec8863-2262-4a41-9508-4b83d76d61a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07af0d20-dbea-4ffa-b093-8157a513d29a",
+      "comment": "",
+      "command": "click",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e849e01-c760-4e9f-a1ab-822f7d204ebf",
+      "comment": "",
+      "command": "type",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Prova Oggetto"
+    }, {
+      "id": "f75ebfd9-0bda-4a94-8c45-9280d27f7846",
+      "comment": "",
+      "command": "click",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f830de16-c55a-4987-893d-78abcfc29bd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e749c24b-dc72-4e4d-97f6-b1e7df8cb914",
+      "comment": "",
+      "command": "type",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "SADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }, {
+      "id": "bab4f18f-6dad-4dd7-804d-c08734cd7910",
+      "comment": "",
+      "command": "click",
+      "target": "id=buttonNuovoMessaggio",
+      "targets": [
+        ["id=buttonNuovoMessaggio", "id"],
+        ["css=#buttonNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='buttonNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//form[@id='nuovoMessaggioForm']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5084423f-53a9-40b5-ad48-e6b0c08b77c5",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='formNuovoMessaggioDiv']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Il messaggio è troppo lungo!')]", "xpath:innerText"]
+      ],
+      "value": "Il messaggio è troppo lungo!"
+    }]
+  }, {
+    "id": "6ad48634-8e60-4b70-8f40-ca82a7a97b02",
+    "name": "TC 2.6",
+    "commands": [{
+      "id": "7ae7c086-2f4c-4009-a86e-15576051eafe",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp"
+    }, {
+      "id": "4cb09f9b-6ef8-4ea0-bee3-e5ef9ea05662",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34a292fb-7db0-4aad-9327-c4e7887b5030",
+      "comment": "",
+      "command": "select",
+      "target": "id=ruoloMessaggio",
+      "targets": [],
+      "value": "label=Tecnico"
+    }, {
+      "id": "95c8c51b-b8b4-4f8e-88fe-829cf068c665",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9845408-d410-44c5-9fb6-9ffa4f5bf22b",
+      "comment": "",
+      "command": "click",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed5eaed1-0424-402e-b696-d1da0a5c7195",
+      "comment": "",
+      "command": "type",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }, {
+      "id": "3f1f0da4-1046-4292-b56c-cf5de493d1c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0dd9812-ea3c-4e52-a108-04f24967970b",
+      "comment": "",
+      "command": "type",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "SADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASADADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }, {
+      "id": "3c3019de-857f-4717-9811-fda1f2f22a4d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='formNuovoMessaggioDiv']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": "L'oggetto del messaggio è troppo lungo!"
+    }]
+  }, {
+    "id": "12cd8b74-3ce3-4fcc-a4c9-184d85805a4d",
+    "name": "TC 2.5",
+    "commands": [{
+      "id": "ffa777cd-6d6e-416d-87a3-3a7341b7a3f2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc29c158-a59c-45ad-bb00-7b48a843ac57",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78d60112-f087-48d0-b7d6-12bff958416e",
+      "comment": "",
+      "command": "select",
+      "target": "id=ruoloMessaggio",
+      "targets": [],
+      "value": "label=Tecnico"
+    }, {
+      "id": "625886ca-d04d-4ab0-a04e-1a42089cea6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ruoloMessaggio",
+      "targets": [
+        ["id=ruoloMessaggio", "id"],
+        ["name=ruolo", "name"],
+        ["css=#ruoloMessaggio", "css:finder"],
+        ["xpath=//select[@id='ruoloMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divRuolo']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d65bb0-8af7-4846-87b5-9782a42d519d",
+      "comment": "",
+      "command": "click",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e08e8342-6820-4e66-acc7-cbb0769b4b5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=oggettoNuovoMessaggio",
+      "targets": [
+        ["id=oggettoNuovoMessaggio", "id"],
+        ["name=oggettoNuovoMessaggio", "name"],
+        ["css=#oggettoNuovoMessaggio", "css:finder"],
+        ["xpath=//input[@id='oggettoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divOggetto']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }, {
+      "id": "18cd504c-ee21-40d8-a3af-e0c46197de87",
+      "comment": "",
+      "command": "click",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "145cd83c-60c7-4ed3-88b5-8dfb8780fbb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "073cb696-395f-4280-ae86-52e7f7c836cc",
+      "comment": "",
+      "command": "type",
+      "target": "id=corpoNuovoMessaggio",
+      "targets": [
+        ["id=corpoNuovoMessaggio", "id"],
+        ["name=corpoNuovoMessaggio", "name"],
+        ["css=#corpoNuovoMessaggio", "css:finder"],
+        ["xpath=//textarea[@id='corpoNuovoMessaggio']", "xpath:attributes"],
+        ["xpath=//div[@id='divCorpo']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "asdadadas"
+    }, {
+      "id": "d7dc6b71-34ae-4ffa-b938-68aa09dcb89a",
+      "comment": "",
+      "command": "click",
+      "target": "id=navMessaggioDiv",
+      "targets": [
+        ["id=navMessaggioDiv", "id"],
+        ["css=#navMessaggioDiv", "css:finder"],
+        ["xpath=//div[@id='navMessaggioDiv']", "xpath:attributes"],
+        ["xpath=//body/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70ebe3cb-d028-476d-a374-017bbe1b1a90",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='formNuovoMessaggioDiv']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": "L'oggetto del messaggio è troppo lungo!"
+    }]
+  }],
+  "suites": [{
+    "id": "f5cb7d41-4b8d-407b-bff3-680653c0211c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/AM-GP/areautenti/NuovoMessaggio.jsp"],
+  "plugins": []
+}

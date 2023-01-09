@@ -1,0 +1,553 @@
+{
+  "id": "a07a416f-4d6c-4455-9808-a5f13ee72ec2",
+  "version": "2.0",
+  "name": "AM-GP SystemTesting",
+  "url": "http://localhost:8080/AM-GP/Login.jsp",
+  "tests": [{
+    "id": "c2cebca2-8581-4c3d-807e-45d2c6bd827d",
+    "name": "TC 1.2",
+    "commands": [{
+      "id": "f040f8f2-7e43-4d85-af1e-13780da08f36",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71f42f62-8261-43a7-a303-52d4f610c59a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1039x749",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7561553e-f8c7-4e2f-91d6-f780578434f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f5b0e8-8033-489d-8db2-fc86f52fdc8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ass"
+    }, {
+      "id": "d6b1c62b-c633-411b-937d-8856b6219834",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81f5a0b-b16b-45f7-bc32-efb90b8be449",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='loginForm_div']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"]
+      ],
+      "value": "Il formato dell'id non è corretto"
+    }]
+  }, {
+    "id": "68b7b9ef-3e46-4278-bef2-e2bfa8dd2a00",
+    "name": "TC 1.3",
+    "commands": [{
+      "id": "ccd77e45-2c5a-4335-bd92-a6623a3b4263",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c96c4e52-5099-485e-962c-a1bdc082db7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "913x749",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a89cb94-a8aa-43ff-9d30-e900c5046263",
+      "comment": "",
+      "command": "click",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "271a9e0a-1fe2-469d-951d-ef71742c6e76",
+      "comment": "",
+      "command": "type",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AAAAAaABCDfERV"
+    }, {
+      "id": "d0873c72-ea91-4897-b137-35ca8c458d3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6439e40-7659-402d-a22a-038b4b1631dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "fdsfs"
+    }, {
+      "id": "9d82effd-7e98-4127-af9d-e2c355706489",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e85e16b-86e4-45f1-9c7a-3d7c182f39dd",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='loginForm_div']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Il formato della password non è corretto')]", "xpath:innerText"]
+      ],
+      "value": "Il formato della password non è corretto"
+    }]
+  }, {
+    "id": "5d9d9700-7a08-4c1b-9ba8-b17e9f32ee4b",
+    "name": "TC 1.4",
+    "commands": [{
+      "id": "b68d681c-e709-4d01-a329-798ff3f9c042",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89fecadc-a28b-4953-921a-afb9f49d058a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "913x749",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59dbda93-244d-4063-97da-49697c0cd27b",
+      "comment": "",
+      "command": "click",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "753d3dcd-3e11-401c-a1b4-081044880612",
+      "comment": "",
+      "command": "type",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AAAAAaABCDfEVG"
+    }, {
+      "id": "8c0a3808-e8ea-448f-a9a2-6d6212d79c9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07da4006-4959-4878-85ea-c9db624b8e71",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "SalveATuttiRagazzi32+"
+    }, {
+      "id": "5d74a885-5988-4a59-a9a4-decd3b97c8d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4659d6d3-ba5c-440e-8ef2-264a91bbc6d6",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorP",
+      "targets": [
+        ["id=errorP", "id"],
+        ["css=#errorP", "css:finder"],
+        ["xpath=//p[@id='errorP']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Dati di accesso scorretti o mancanti!')]", "xpath:innerText"]
+      ],
+      "value": "Dati di accesso scorretti o mancanti!"
+    }]
+  }, {
+    "id": "738d9124-2268-4d98-a786-b57931e03653",
+    "name": "TC 1.5",
+    "commands": [{
+      "id": "2357a543-e26f-4a1a-bff7-2b43f3d2c739",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7efec74c-2940-4262-bd76-eb8486a97ba9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "913x749",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84245945-09eb-4b75-959f-43f691eacf86",
+      "comment": "",
+      "command": "click",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2dbf362-a617-4506-b9cb-116ab053186b",
+      "comment": "",
+      "command": "type",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AAAAAaABCDfERV"
+    }, {
+      "id": "4d49a4b1-5a93-4d25-91ff-6796b7b89397",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b804720a-5ed8-45a3-a9b1-4df401d5d46a",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "SalveATuttiRagazzi31+"
+    }, {
+      "id": "6833e8c8-f582-44d4-bfa6-718ec36b3ae7",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "456073cf-e202-443d-b851-038a15cc9e76",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorP",
+      "targets": [
+        ["id=errorP", "id"],
+        ["css=#errorP", "css:finder"],
+        ["xpath=//p[@id='errorP']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Dati di accesso scorretti o mancanti!')]", "xpath:innerText"]
+      ],
+      "value": "Dati di accesso scorretti o mancanti!"
+    }]
+  }, {
+    "id": "3e908a19-210c-475c-877b-b50410ef1121",
+    "name": "TC 1.6",
+    "commands": [{
+      "id": "b8c88cd8-984b-4ac3-b0a5-eeb4f133ffa8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb0697c5-1e30-45ba-be59-2a750ab28e92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "908x749",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b7956ea-6eeb-4524-9649-65cb706209ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4311a8a0-8079-4589-af2a-b894537c6ca8",
+      "comment": "",
+      "command": "type",
+      "target": "id=userID",
+      "targets": [
+        ["id=userID", "id"],
+        ["name=userID", "name"],
+        ["css=#userID", "css:finder"],
+        ["xpath=//input[@id='userID']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AAAAAAAAAAAAAC"
+    }, {
+      "id": "4d271c91-1eb7-4558-99e0-8402197ec8f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec1d1cd1-0b72-4d86-9b8f-11a50276db12",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe77caba-a12f-4bdb-bad5-b9b63878d7aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=password", "name"],
+        ["css=#userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "passwordProva4?+"
+    }, {
+      "id": "6e12941a-3887-4ff7-b0be-3b17705643a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "954f1a17-b16f-416b-ba65-241f3255fd24",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=CASELLA DI POSTA",
+      "targets": [
+        ["linkText=CASELLA DI POSTA", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CASELLA DI POSTA')]", "xpath:link"],
+        ["xpath=//div[@id='navDiv']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/areautenti/MessaggiRicevuti.jsp')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'CASELLA DI POSTA')]", "xpath:innerText"]
+      ],
+      "value": "CASELLA DI POSTA"
+    }]
+  }, {
+    "id": "2a5d1bec-8838-4e52-84bf-e800478f2471",
+    "name": "TC 1.1",
+    "commands": [{
+      "id": "3c8ad22f-f23a-47a7-bede-7d7205da9aac",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64ba6183-eb89-45dd-abd8-146b6a7fbff8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "789x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f20fa1a0-be71-4259-a8df-52648cb6877c",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecda782d-672a-4e17-80e5-f54b696a1788",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorH1",
+      "targets": [
+        ["id=errorH1", "id"],
+        ["css=#errorH1", "css:finder"],
+        ["xpath=//h1[@id='errorH1']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ooops!')]", "xpath:innerText"]
+      ],
+      "value": "Ooops!"
+    }]
+  }],
+  "suites": [{
+    "id": "94148405-15b9-4a5a-884b-e84f332a16b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/AM-GP/Login.jsp"],
+  "plugins": []
+}

@@ -1,0 +1,132 @@
+{
+  "id": "b13d39d7-8df0-46db-bedd-0de53ed52f78",
+  "version": "2.0",
+  "name": "TC6",
+  "url": "http://localhost:8080/AM-GP/ViewCircuitoControl?idCircuito=-1&&page=circuiti",
+  "tests": [{
+    "id": "77815d00-8ceb-44ac-ba7d-85f0e4d1ee36",
+    "name": "TC 6.4",
+    "commands": [{
+      "id": "339d5021-e94e-4c31-9f8f-c29bf4f6a21e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaCircuiti.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d10027d-df1e-4f1d-8c92-c0def6d7ee0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83e929e0-c4a7-4c30-9c1f-09a090415dcf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Visualizza",
+      "targets": [
+        ["linkText=Visualizza", "linkText"],
+        ["css=.messaggioRiga:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Visualizza')]", "xpath:link"],
+        ["xpath=//td[@id='pulsanteCircuito']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ViewCircuitoControl?page=circuiti')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Visualizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9c29fb-15d6-4ec3-8232-d3cb4f512a22",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "id= null",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3e9c93cc-4b0e-43a5-a272-a57cee1019a4",
+    "name": "TC 6.1",
+    "commands": [{
+      "id": "7f5032e3-be71-4ab7-bbc8-bc718fc1c399",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/ViewCircuitoControl?idCircuito=&&page=circuiti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "146f4d28-2952-4141-bf20-c2428f4a793b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorP",
+      "targets": [
+        ["id=errorP", "id"],
+        ["css=#errorP", "css:finder"],
+        ["xpath=//p[@id='errorP']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hai inserito dei dati in maniera scorretta!')]", "xpath:innerText"]
+      ],
+      "value": "Hai inserito dei dati in maniera scorretta!"
+    }]
+  }, {
+    "id": "5798ee6e-a9ac-4346-9e8f-af486fd41522",
+    "name": "TC 6.2",
+    "commands": [{
+      "id": "ee15c517-7bd4-4e7e-9a63-1414285ec33b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/ViewCircuitoControl?idCircuito=abc&&page=circuiti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cd845c9-45bf-473d-a7e6-aef4928daf7e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorP",
+      "targets": [
+        ["id=errorP", "id"],
+        ["css=#errorP", "css:finder"],
+        ["xpath=//p[@id='errorP']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hai inserito dei dati in maniera scorretta!')]", "xpath:innerText"]
+      ],
+      "value": "Hai inserito dei dati in maniera scorretta!"
+    }]
+  }, {
+    "id": "aeab7be0-767b-456c-8df8-497bdf506127",
+    "name": "TC 6.3",
+    "commands": [{
+      "id": "e7acac6e-5a7f-4a8e-a67e-d9cf1de0eab8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/ViewCircuitoControl?idCircuito=-1&&page=circuiti",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e52fc76b-3d80-467c-b99c-8a0842bedd92",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorP",
+      "targets": [
+        ["id=errorP", "id"],
+        ["css=#errorP", "css:finder"],
+        ["xpath=//p[@id='errorP']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hai inserito dei dati in maniera scorretta!')]", "xpath:innerText"]
+      ],
+      "value": "Hai inserito dei dati in maniera scorretta!"
+    }]
+  }],
+  "suites": [{
+    "id": "6e80c506-fce8-4ad5-bb3c-0fd869d3bd72",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/AM-GP/areautenti/tecnico/ListaCircuiti.jsp", "http://localhost:8080/AM-GP/ViewCircuitoControl?idCircuito=&&page=circuiti", "http://localhost:8080/AM-GP/ViewCircuitoControl?idCircuito=abc&&page=circuiti", "http://localhost:8080/AM-GP/ViewCircuitoControl?idCircuito=-1&&page=circuiti"],
+  "plugins": []
+}

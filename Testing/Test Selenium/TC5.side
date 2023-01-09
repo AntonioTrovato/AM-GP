@@ -1,0 +1,77 @@
+{
+  "id": "7f61e568-fbf4-4936-96d0-5b7633aff6db",
+  "version": "2.0",
+  "name": "TC5",
+  "url": "http://localhost:8080/AM-GP/DeleteSetupControl?idSetup=-1",
+  "tests": [{
+    "id": "474d44da-a5b8-4c67-977d-f516babb6143",
+    "name": "TC 5.1",
+    "commands": [{
+      "id": "b3b3559c-cc13-47c2-b2cc-c096969acd41",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "553d4c3f-030c-4ffb-b566-500addb5c70d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.setupRiga:nth-child(2) > #eliminaSetupTD .far",
+      "targets": [
+        ["css=.setupRiga:nth-child(2) > #eliminaSetupTD .far", "css:finder"],
+        ["xpath=//a[@id='eliminaSetup']/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8e63d58-d7e1-4e53-b790-43d6fb3e1115",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=h1SetupList",
+      "targets": [
+        ["id=h1SetupList", "id"],
+        ["css=#h1SetupList", "css:finder"],
+        ["xpath=//h1[@id='h1SetupList']", "xpath:attributes"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lista Setup')]", "xpath:innerText"]
+      ],
+      "value": "Lista Setup"
+    }]
+  }, {
+    "id": "f9a6fa30-666e-4020-a010-e97f8f12ed89",
+    "name": "TC 5.2",
+    "commands": [{
+      "id": "0ccbf83e-206d-4cb8-b67d-385dcb7d004f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/DeleteSetupControl?idSetup=-1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf7591ca-9afb-481b-86dd-b241df6010b8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorP",
+      "targets": [
+        ["id=errorP", "id"],
+        ["css=#errorP", "css:finder"],
+        ["xpath=//p[@id='errorP']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Non è presente alcun Setup con tale ID!')]", "xpath:innerText"]
+      ],
+      "value": "Non è presente alcun Setup con tale ID!"
+    }]
+  }],
+  "suites": [{
+    "id": "91b804ad-8ab1-4942-a996-1961eb0c0b41",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["474d44da-a5b8-4c67-977d-f516babb6143"]
+  }],
+  "urls": ["http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp", "http://localhost:8080/AM-GP/DeleteSetupControl?idSetup=-1"],
+  "plugins": []
+}

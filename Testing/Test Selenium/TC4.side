@@ -1,0 +1,1556 @@
+{
+  "id": "a07a416f-4d6c-4455-9808-a5f13ee72ec2",
+  "version": "2.0",
+  "name": "TC4",
+  "url": "http://localhost:8080/AM-GP/ModificaSetupControl?idSetup=-1",
+  "tests": [{
+    "id": "cfdd6059-e761-485d-8cf4-b9bb72e1777f",
+    "name": "TC 4.2",
+    "commands": [{
+      "id": "31d042e5-da3c-4866-a1dd-2b56936fa2d0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56281b90-8d82-4752-b385-e36a05b14764",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "910x751",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "890355a5-621c-49a8-8b4a-579eadc8403e",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9597a58-161c-4145-859c-dbfc1ad3cffa",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b79467-d3b5-46fc-b8a1-a7a5ee66f208",
+      "comment": "",
+      "command": "type",
+      "target": "id=CAA",
+      "targets": [
+        ["id=CAA", "id"],
+        ["name=caricoAnt", "name"],
+        ["css=#CAA", "css:finder"],
+        ["xpath=//input[@id='CAA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "16"
+    }, {
+      "id": "b86cfbc0-b875-433d-9e74-ef94ba83bee3",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6032e49-cba2-469c-800b-697b5407cd97",
+      "comment": "",
+      "command": "type",
+      "target": "id=CPP",
+      "targets": [
+        ["id=CPP", "id"],
+        ["name=caricoPost", "name"],
+        ["css=#CPP", "css:finder"],
+        ["xpath=//input[@id='CPP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "0d196734-ba61-40e8-a457-eb339c1b9cdd",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1281044-2287-4912-b854-fa51d0faa243",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampA",
+      "targets": [
+        ["id=CampA", "id"],
+        ["name=campanAnt", "name"],
+        ["css=#CampA", "css:finder"],
+        ["xpath=//input[@id='CampA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "cda0569f-faee-43fd-8e68-cbfa859e976b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4)",
+      "targets": [
+        ["css=div:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e930bfe3-a35f-4943-b6e1-1205ad826485",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampP",
+      "targets": [
+        ["id=CampP", "id"],
+        ["name=campanPost", "name"],
+        ["css=#CampP", "css:finder"],
+        ["xpath=//input[@id='CampP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "a7da39a5-968b-4fd4-a73c-32a237a3ef1d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Carico Aereodinamico Anteriore è fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Carico Aereodinamico Anteriore è fuori dal range"
+    }]
+  }, {
+    "id": "be42fedf-d70b-4082-a30e-766048c0a4b5",
+    "name": "TC 4.3",
+    "commands": [{
+      "id": "2d48a47b-b6a9-411c-8f65-279531d2358a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d73530fe-e379-4d13-bc8d-aef1c5d0867f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "911x752",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62a5acf1-17f5-4a23-ab4e-d76c8b9d0f82",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95bc3988-9ef3-4d44-9922-f4cfe2e5fe65",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2ddfd06-edc9-4d9e-9592-57145ecae3be",
+      "comment": "",
+      "command": "type",
+      "target": "id=CPP",
+      "targets": [
+        ["id=CPP", "id"],
+        ["name=caricoPost", "name"],
+        ["css=#CPP", "css:finder"],
+        ["xpath=//input[@id='CPP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "160aa8af-9b0b-4a8b-bf86-7e538cf36877",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92cd1136-86fa-49bb-9ca0-ed770cfaffb5",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Carico Aereodinamico Posteriore fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Carico Aereodinamico Posteriore fuori dal range"
+    }]
+  }, {
+    "id": "fa50e1bf-348c-4535-82a2-8d2c48b52fb1",
+    "name": "TC 4.4",
+    "commands": [{
+      "id": "28bf5105-c5ca-409c-867e-0b5e713b8100",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e5878f0-21a7-4f08-8375-d9e8930361df",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e74cbae6-7974-4eb5-ad44-65d4313c3d10",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec6f705-33a5-4d22-9498-b23a78f9b6e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#containerLabel > div:nth-child(3)",
+      "targets": [
+        ["css=#containerLabel > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6392b79e-e3ce-4fdb-b061-b75a42c53d65",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampA",
+      "targets": [
+        ["id=CampA", "id"],
+        ["name=campanAnt", "name"],
+        ["css=#CampA", "css:finder"],
+        ["xpath=//input[@id='CampA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "7e165181-871a-4975-aefc-342c4458d5d6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1c10675-8ee3-4dca-8188-a6367690cb21",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#containerLabel > div:nth-child(3)",
+      "targets": [
+        ["css=#containerLabel > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ef0b122-dd44-4fb4-b848-bb3f092d1831",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19da9cfc-fc3d-4763-9e0b-02494609a69c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4)",
+      "targets": [
+        ["css=div:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b26631a3-eb6d-4c5b-8e7d-ec7be0dc851e",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampP",
+      "targets": [
+        ["id=CampP", "id"],
+        ["name=campanPost", "name"],
+        ["css=#CampP", "css:finder"],
+        ["xpath=//input[@id='CampP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "f95d6784-13b3-4036-a286-76e3d2b16a27",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Campanatura Anteriore fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Campanatura Anteriore fuori dal range"
+    }]
+  }, {
+    "id": "1a6219bb-b38b-4ea4-a400-983560f59026",
+    "name": "TC 4.5",
+    "commands": [{
+      "id": "8e6d5788-00dd-43ab-8298-de04e88923bc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cf50ab5-9df1-4caf-9e4c-3c216370f83a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x755",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f90ba377-959f-453f-9df3-42c2b35475c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "974c5a10-f1fb-4e5a-b520-b793c12891d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4)",
+      "targets": [
+        ["css=div:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8beb6b-1f0c-4a62-bf06-171160777b66",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampP",
+      "targets": [
+        ["id=CampP", "id"],
+        ["name=campanPost", "name"],
+        ["css=#CampP", "css:finder"],
+        ["xpath=//input[@id='CampP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "e177f793-6def-47fa-a6e9-38161ae92094",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=div:nth-child(3) > label",
+      "targets": [
+        ["css=div:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Campanatura Anteriore:     ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04e841ce-249a-4727-ae74-bb30809e42a2",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0f7d04-770e-466d-afed-67831695c8fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d5987fb-3f9e-42a3-a85a-feaa29c5fa5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "624b7049-1807-42bc-b85e-005037b59978",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvA",
+      "targets": [
+        ["id=ConvA", "id"],
+        ["name=converAnt", "name"],
+        ["css=#ConvA", "css:finder"],
+        ["xpath=//input[@id='ConvA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "ddc9d48e-7cf5-44d6-aa99-0df5de7abbab",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6)",
+      "targets": [
+        ["css=div:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e73490a4-98d8-48d2-83ad-5bb714bd6b53",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvP",
+      "targets": [
+        ["id=ConvP", "id"],
+        ["name=converPost", "name"],
+        ["css=#ConvP", "css:finder"],
+        ["xpath=//input[@id='ConvP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "2cb7b65c-6953-47a2-a35e-696c94fbaf5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7)",
+      "targets": [
+        ["css=div:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[7]", "xpath:idRelative"],
+        ["xpath=//div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12db303c-3dc5-480e-b1c8-47b4d32586a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=PressF",
+      "targets": [
+        ["id=PressF", "id"],
+        ["name=pressFren", "name"],
+        ["css=#PressF", "css:finder"],
+        ["xpath=//input[@id='PressF']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "43"
+    }, {
+      "id": "38098cff-7b00-4e80-8109-69b2eb5269fa",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Campanatura Posteriore fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Campanatura Posteriore fuori dal range"
+    }]
+  }, {
+    "id": "36646312-284e-42ee-a083-baed01edd070",
+    "name": "TC 4.6",
+    "commands": [{
+      "id": "e88d5f8b-d95f-4c8e-b7f2-36ae8ffa6e4e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c55269dd-5820-4fc0-855c-579483dc6504",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44a78d8e-4c12-47b4-8fbf-fb8122cd447d",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "495af4ec-3453-4025-bbc3-b5ae528c8aa1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5)",
+      "targets": [
+        ["css=div:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e85a4f37-a737-42f9-bd17-22bfae57adba",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvA",
+      "targets": [
+        ["id=ConvA", "id"],
+        ["name=converAnt", "name"],
+        ["css=#ConvA", "css:finder"],
+        ["xpath=//input[@id='ConvA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "3aa2e3b4-dfd3-450a-96db-4eb6dd5e2d79",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6)",
+      "targets": [
+        ["css=div:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d97d53d-66dc-4916-90d9-0e9290bf3bf9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvP",
+      "targets": [
+        ["id=ConvP", "id"],
+        ["name=converPost", "name"],
+        ["css=#ConvP", "css:finder"],
+        ["xpath=//input[@id='ConvP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "ff6cb0d9-3692-4fda-98ce-454300de761f",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a1f7a14-8f91-4373-bb22-8228ee0c5a68",
+      "comment": "",
+      "command": "type",
+      "target": "id=PressF",
+      "targets": [
+        ["id=PressF", "id"],
+        ["name=pressFren", "name"],
+        ["css=#PressF", "css:finder"],
+        ["xpath=//input[@id='PressF']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "43"
+    }, {
+      "id": "c366d0b1-c5ad-4472-a46d-fcd9ad67e200",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Convergenza Anteriore fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Convergenza Anteriore fuori dal range"
+    }]
+  }, {
+    "id": "ef85bfbd-9a5f-467c-84d7-bdcb31f70e78",
+    "name": "TC 4.7",
+    "commands": [{
+      "id": "7eac6eae-e6f6-4e3e-8f17-a9e6ff9b55cf",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dd57a2b-4c7f-4db1-a9f4-567d9208b2cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fef25ea-5ceb-4168-afac-6dcc2ec248cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0ae9033-d351-4ea8-a41d-8776b017e117",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6)",
+      "targets": [
+        ["css=div:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dbe6559-f58e-4bf3-9ad0-834ed196c39b",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvP",
+      "targets": [
+        ["id=ConvP", "id"],
+        ["name=converPost", "name"],
+        ["css=#ConvP", "css:finder"],
+        ["xpath=//input[@id='ConvP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "20dc734e-65e5-4e5f-a82e-3adff3ecfce1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5)",
+      "targets": [
+        ["css=div:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b70d54d-b60c-42e2-a801-73d79e12fb90",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvA",
+      "targets": [
+        ["id=ConvA", "id"],
+        ["name=converAnt", "name"],
+        ["css=#ConvA", "css:finder"],
+        ["xpath=//input[@id='ConvA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "7732ed23-32db-4989-bd9c-94c55b61d44d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4)",
+      "targets": [
+        ["css=div:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e349fdaa-40a5-4947-95db-c106b5aede12",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampP",
+      "targets": [
+        ["id=CampP", "id"],
+        ["name=campanPost", "name"],
+        ["css=#CampP", "css:finder"],
+        ["xpath=//input[@id='CampP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "b843305e-5493-49ab-ae07-8d3148fdecd7",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Convergenza Posteriore fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Convergenza Posteriore fuori dal range"
+    }]
+  }, {
+    "id": "2cdeb2a1-9888-4500-a7e1-1ec1565b8aa7",
+    "name": "TC 4.8",
+    "commands": [{
+      "id": "bc876d3d-e70d-42f8-9d13-055131ad85bf",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36ac8d6a-f6ad-4b40-982e-45ca175d538e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd12dd53-9c30-49e1-85f9-b50c346cc8e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aeba354-8eb0-4f74-907c-53e99cb97f84",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5)",
+      "targets": [
+        ["css=div:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9784a64c-90e4-4992-82c0-5cc097125a2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvA",
+      "targets": [
+        ["id=ConvA", "id"],
+        ["name=converAnt", "name"],
+        ["css=#ConvA", "css:finder"],
+        ["xpath=//input[@id='ConvA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "11354778-ff03-4f55-8406-6bc6b385bfd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6)",
+      "targets": [
+        ["css=div:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b1a3cc9-79aa-4a96-825b-96e014a2ceff",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvP",
+      "targets": [
+        ["id=ConvP", "id"],
+        ["name=converPost", "name"],
+        ["css=#ConvP", "css:finder"],
+        ["xpath=//input[@id='ConvP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b83194ad-12c4-47ea-b77f-efe2c6206168",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b55a74a-d32e-4dce-8ca5-e4e2f257ffa0",
+      "comment": "",
+      "command": "type",
+      "target": "id=PressF",
+      "targets": [
+        ["id=PressF", "id"],
+        ["name=pressFren", "name"],
+        ["css=#PressF", "css:finder"],
+        ["xpath=//input[@id='PressF']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "167"
+    }, {
+      "id": "b759398a-96f2-40af-b596-a6d011473ddb",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pressione dei freni fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Pressione dei freni fuori dal range"
+    }]
+  }, {
+    "id": "f407b4ca-c54e-461b-8bd0-95954a87c059",
+    "name": "TC 4.9",
+    "commands": [{
+      "id": "6abe4d01-2603-4fcf-b1ee-03464435dbfc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc84edd5-baaa-44f4-ba66-a10a30cb2582",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fd6e3ec-47a4-41c2-8637-148e4076a466",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa6fd498-a0fb-46f9-a57f-cc6fb13ce572",
+      "comment": "",
+      "command": "click",
+      "target": "css=#containerLabel > div:nth-child(3)",
+      "targets": [
+        ["css=#containerLabel > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d617dd42-4889-4000-b4c9-cb71f959afc8",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampA",
+      "targets": [
+        ["id=CampA", "id"],
+        ["name=campanAnt", "name"],
+        ["css=#CampA", "css:finder"],
+        ["xpath=//input[@id='CampA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "d8d93828-cf52-4e0c-b421-f42d0c3ca05d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4)",
+      "targets": [
+        ["css=div:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35c7e889-5f1a-48ac-97a6-f4e3d172bf47",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampP",
+      "targets": [
+        ["id=CampP", "id"],
+        ["name=campanPost", "name"],
+        ["css=#CampP", "css:finder"],
+        ["xpath=//input[@id='CampP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "5b618fb6-afb5-4a34-bd48-28b3e3b54512",
+      "comment": "",
+      "command": "click",
+      "target": "id=containerLabel",
+      "targets": [
+        ["id=containerLabel", "id"],
+        ["css=#containerLabel", "css:finder"],
+        ["xpath=//div[@id='containerLabel']", "xpath:attributes"],
+        ["xpath=//form[@id='formGestioneSetup']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7752a412-55dc-4024-988c-4203e2afd786",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvA",
+      "targets": [
+        ["id=ConvA", "id"],
+        ["name=converAnt", "name"],
+        ["css=#ConvA", "css:finder"],
+        ["xpath=//input[@id='ConvA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "5ec61db1-9450-46b3-b66b-26846ad9d14f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6)",
+      "targets": [
+        ["css=div:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7015af33-dfa9-4a3f-b63a-c3b2ae44c0a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvP",
+      "targets": [
+        ["id=ConvP", "id"],
+        ["name=converPost", "name"],
+        ["css=#ConvP", "css:finder"],
+        ["xpath=//input[@id='ConvP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "78a95401-006c-437f-94c3-bbea34ecc07d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(8)",
+      "targets": [
+        ["css=div:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='containerLabel']/div[8]", "xpath:idRelative"],
+        ["xpath=//div[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93cdd500-97e6-4365-9d43-3038ee146647",
+      "comment": "",
+      "command": "type",
+      "target": "id=BAP",
+      "targets": [
+        ["id=BAP", "id"],
+        ["name=barrPost", "name"],
+        ["css=div:nth-child(8) > #BAP", "css:finder"],
+        ["xpath=//input[@id='BAP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "7e6999e8-22f1-4c47-a541-e5e4cf2d25ca",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barra Antirollio Posteriore fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Barra Antirollio Posteriore fuori dal range"
+    }]
+  }, {
+    "id": "79c58c28-4e1b-4037-9cbd-18072dbda128",
+    "name": "TC 4.10",
+    "commands": [{
+      "id": "ffc335e0-6ff4-4846-96fb-198a788c9459",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67861243-8b31-4697-914a-4e3dd0069efa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "908x709",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "164659c1-8d3e-4007-a4e8-8a8715d4e61d",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ee6d0f-8f9d-4513-a2cb-8bf9bece9f4c",
+      "comment": "",
+      "command": "click",
+      "target": "name=barrAnt",
+      "targets": [
+        ["name=barrAnt", "name"],
+        ["css=div:nth-child(9) > #BAP", "css:finder"],
+        ["xpath=(//input[@id='BAP'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f840dd9-f446-4248-b5d9-37945ee0a462",
+      "comment": "",
+      "command": "type",
+      "target": "name=barrAnt",
+      "targets": [
+        ["name=barrAnt", "name"],
+        ["css=div:nth-child(9) > #BAP", "css:finder"],
+        ["xpath=(//input[@id='BAP'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "24"
+    }, {
+      "id": "1e169605-aff6-4ead-a86c-ac8167025e35",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5fc29e8-5574-4cae-aabc-e9e10ee7dd18",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorMessage2",
+      "targets": [
+        ["id=errorMessage2", "id"],
+        ["css=#errorMessage2", "css:finder"],
+        ["xpath=//span[@id='errorMessage2']", "xpath:attributes"],
+        ["xpath=//div[@id='containerGestioneSetup']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barra Antirollio Anteriore fuori dal range')]", "xpath:innerText"]
+      ],
+      "value": "Barra Antirollio Anteriore fuori dal range"
+    }]
+  }, {
+    "id": "a0e7ce90-5017-497a-9ade-76f5c6ff1dd4",
+    "name": "TC 4.11",
+    "commands": [{
+      "id": "c0358bb3-1966-42f1-9e75-5aafffa741a7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ee926d1-4df1-460f-be16-e8d2dd0d1f05",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "908x709",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63769bf8-8003-49be-804b-0e3914f2f5b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=modificaSetup",
+      "targets": [
+        ["id=modificaSetup", "id"],
+        ["linkText=Modifica", "linkText"],
+        ["css=#modificaSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Modifica')]", "xpath:link"],
+        ["xpath=//a[@id='modificaSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='rigModificaSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ModificaSetupControl?idSetup=6')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Modifica')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91ca9750-0104-4dcc-bf93-9509de6db280",
+      "comment": "",
+      "command": "click",
+      "target": "id=CAA",
+      "targets": [
+        ["id=CAA", "id"],
+        ["name=caricoAnt", "name"],
+        ["css=#CAA", "css:finder"],
+        ["xpath=//input[@id='CAA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb9de17-32e2-4a79-b2df-b0b7de0e95c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=CAA",
+      "targets": [
+        ["id=CAA", "id"],
+        ["name=caricoAnt", "name"],
+        ["css=#CAA", "css:finder"],
+        ["xpath=//input[@id='CAA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "b16cd523-76fe-43e1-8c91-699cd25f8cb3",
+      "comment": "",
+      "command": "click",
+      "target": "id=CPP",
+      "targets": [
+        ["id=CPP", "id"],
+        ["name=caricoPost", "name"],
+        ["css=#CPP", "css:finder"],
+        ["xpath=//input[@id='CPP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63888596-906c-447e-ba35-0491c8955119",
+      "comment": "",
+      "command": "type",
+      "target": "id=CPP",
+      "targets": [
+        ["id=CPP", "id"],
+        ["name=caricoPost", "name"],
+        ["css=#CPP", "css:finder"],
+        ["xpath=//input[@id='CPP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "568cde82-c152-4e6e-afbb-bbd8b5a85665",
+      "comment": "",
+      "command": "click",
+      "target": "id=CampA",
+      "targets": [
+        ["id=CampA", "id"],
+        ["name=campanAnt", "name"],
+        ["css=#CampA", "css:finder"],
+        ["xpath=//input[@id='CampA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a33ebdbe-eff6-4224-8246-a66d0bd70c79",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampA",
+      "targets": [
+        ["id=CampA", "id"],
+        ["name=campanAnt", "name"],
+        ["css=#CampA", "css:finder"],
+        ["xpath=//input[@id='CampA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "f2e4ebcd-042e-47ad-b583-3fbd85a43e2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=CampP",
+      "targets": [
+        ["id=CampP", "id"],
+        ["name=campanPost", "name"],
+        ["css=#CampP", "css:finder"],
+        ["xpath=//input[@id='CampP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "c7d00444-4162-4128-b261-fdd351f4d46e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ConvA",
+      "targets": [
+        ["id=ConvA", "id"],
+        ["name=converAnt", "name"],
+        ["css=#ConvA", "css:finder"],
+        ["xpath=//input[@id='ConvA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dba791da-8208-45d9-bc83-254c765c41ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvA",
+      "targets": [
+        ["id=ConvA", "id"],
+        ["name=converAnt", "name"],
+        ["css=#ConvA", "css:finder"],
+        ["xpath=//input[@id='ConvA']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "1639784c-c29b-4a2f-94f4-14bde5ccbd61",
+      "comment": "",
+      "command": "click",
+      "target": "id=ConvP",
+      "targets": [
+        ["id=ConvP", "id"],
+        ["name=converPost", "name"],
+        ["css=#ConvP", "css:finder"],
+        ["xpath=//input[@id='ConvP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "129b5759-5bb1-4c1d-b691-4fc422e8659c",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConvP",
+      "targets": [
+        ["id=ConvP", "id"],
+        ["name=converPost", "name"],
+        ["css=#ConvP", "css:finder"],
+        ["xpath=//input[@id='ConvP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "dd4e6bed-3582-459b-bfff-7e9f59fac6a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=PressF",
+      "targets": [
+        ["id=PressF", "id"],
+        ["name=pressFren", "name"],
+        ["css=#PressF", "css:finder"],
+        ["xpath=//input[@id='PressF']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f6d0a4-e894-408c-855b-6fcdae0e6d47",
+      "comment": "",
+      "command": "type",
+      "target": "id=PressF",
+      "targets": [
+        ["id=PressF", "id"],
+        ["name=pressFren", "name"],
+        ["css=#PressF", "css:finder"],
+        ["xpath=//input[@id='PressF']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "45"
+    }, {
+      "id": "4f0c59f7-bb35-45c4-82d5-021db8e4460f",
+      "comment": "",
+      "command": "click",
+      "target": "id=BAP",
+      "targets": [
+        ["id=BAP", "id"],
+        ["name=barrPost", "name"],
+        ["css=div:nth-child(8) > #BAP", "css:finder"],
+        ["xpath=//input[@id='BAP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c709ce1e-5277-46db-9c90-f7e036f5de2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=BAP",
+      "targets": [
+        ["id=BAP", "id"],
+        ["name=barrPost", "name"],
+        ["css=div:nth-child(8) > #BAP", "css:finder"],
+        ["xpath=//input[@id='BAP']", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "5fb83665-51cb-4e30-acba-a08d1bf71fa6",
+      "comment": "",
+      "command": "click",
+      "target": "name=barrAnt",
+      "targets": [
+        ["name=barrAnt", "name"],
+        ["css=div:nth-child(9) > #BAP", "css:finder"],
+        ["xpath=(//input[@id='BAP'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b919fceb-321d-4792-b71d-e662196c3208",
+      "comment": "",
+      "command": "type",
+      "target": "name=barrAnt",
+      "targets": [
+        ["name=barrAnt", "name"],
+        ["css=div:nth-child(9) > #BAP", "css:finder"],
+        ["xpath=(//input[@id='BAP'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='containerLabel']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "95b1267c-5f27-4071-a582-434393370b22",
+      "comment": "",
+      "command": "click",
+      "target": "id=buttonSalva",
+      "targets": [
+        ["id=buttonSalva", "id"],
+        ["name=salva", "name"],
+        ["css=#buttonSalva", "css:finder"],
+        ["xpath=//input[@id='buttonSalva']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonGroupModSetup']/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddf448bc-6a18-4a2c-af4c-f0591572fedb",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e9475c2-948d-4542-a332-6045829d547e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=h1SetupList",
+      "targets": [
+        ["id=h1SetupList", "id"],
+        ["css=#h1SetupList", "css:finder"],
+        ["xpath=//h1[@id='h1SetupList']", "xpath:attributes"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Lista Setup')]", "xpath:innerText"]
+      ],
+      "value": "Lista Setup"
+    }]
+  }, {
+    "id": "3de53f16-de39-43ad-975d-78089116e526",
+    "name": "TC 4.1",
+    "commands": [{
+      "id": "56881e75-aa8f-4b42-b74f-6359d22d0eb1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8080/AM-GP/ModificaSetupControl?idSetup=-1"
+    }, {
+      "id": "3c6779c3-ddb3-4ce7-9429-b1bb6a2d5e79",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorH1",
+      "targets": [
+        ["id=errorH1", "id"],
+        ["css=#errorH1", "css:finder"],
+        ["xpath=//h1[@id='errorH1']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ooops!')]", "xpath:innerText"]
+      ],
+      "value": "Ooops!"
+    }]
+  }],
+  "suites": [{
+    "id": "94148405-15b9-4a5a-884b-e84f332a16b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp", "http://localhost:8080/AM-GP/ModificaSetupControl?idSetup=-1"],
+  "plugins": []
+}

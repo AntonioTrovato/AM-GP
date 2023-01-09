@@ -1,0 +1,127 @@
+{
+  "id": "8c56e731-f27c-45b1-8ce6-32320207cdc8",
+  "version": "2.0",
+  "name": "TC7",
+  "url": "http://localhost:8080/AM-GP/ViewSetupControl?idSetup=-1",
+  "tests": [{
+    "id": "eac1125d-5f84-4bb4-9975-7568fb1d267e",
+    "name": "TC 7.4",
+    "commands": [{
+      "id": "3a74eebb-aa59-4db4-a2b6-1d335c2f1159",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3ce6846-3c75-4309-8139-1e7305d247f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=linkSetup",
+      "targets": [
+        ["id=linkSetup", "id"],
+        ["linkText=Visualizza", "linkText"],
+        ["css=#linkSetup", "css:finder"],
+        ["xpath=//a[contains(text(),'Visualizza')]", "xpath:link"],
+        ["xpath=//a[@id='linkSetup']", "xpath:attributes"],
+        ["xpath=//td[@id='pulsanteViewSetup']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AM-GP/ViewSetupControl?idSetup=4')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Visualizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "561290a8-aff2-4fba-ad0f-b712dbfc5189",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=h1ViewSetup",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c0761e6e-acf1-4c8c-a30e-08ab8e068862",
+    "name": "TC 7.1",
+    "commands": [{
+      "id": "2bdef175-dda8-4d19-a5ca-fc234378024a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8080/AM-GP/ViewSetupControl?idSetup="
+    }, {
+      "id": "baad57eb-429a-46ed-a4ae-852ed3b8fefc",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorH1",
+      "targets": [
+        ["id=errorH1", "id"],
+        ["css=#errorH1", "css:finder"],
+        ["xpath=//h1[@id='errorH1']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ooops!')]", "xpath:innerText"]
+      ],
+      "value": "Ooops!"
+    }]
+  }, {
+    "id": "3eae07b2-3a69-4e83-a7f6-6775b95baab9",
+    "name": "TC 7.2",
+    "commands": [{
+      "id": "5997086f-f1d6-4a48-888b-7f7c030d41ba",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8080/AM-GP/ViewSetupControl?idSetup=abc"
+    }, {
+      "id": "33c14f86-5768-490f-aaa3-dee6c9818f6b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorH1",
+      "targets": [
+        ["id=errorH1", "id"],
+        ["css=#errorH1", "css:finder"],
+        ["xpath=//h1[@id='errorH1']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ooops!')]", "xpath:innerText"]
+      ],
+      "value": "Ooops!"
+    }]
+  }, {
+    "id": "d8f03e1d-d74d-441b-a68c-53c538267f92",
+    "name": "TC 7.3",
+    "commands": [{
+      "id": "e6a1d7bd-1fe4-459d-8285-484cb9a97339",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "http://localhost:8080/AM-GP/ViewSetupControl?idSetup=-1"
+    }, {
+      "id": "4dca5d94-ce3c-4c25-a39c-b197c6d32f43",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=errorH1",
+      "targets": [
+        ["id=errorH1", "id"],
+        ["css=#errorH1", "css:finder"],
+        ["xpath=//h1[@id='errorH1']", "xpath:attributes"],
+        ["xpath=//div[@id='error_div']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ooops!')]", "xpath:innerText"]
+      ],
+      "value": "Ooops!"
+    }]
+  }],
+  "suites": [{
+    "id": "81473f47-5d71-454d-a7b8-fd066dad03f2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eac1125d-5f84-4bb4-9975-7568fb1d267e"]
+  }],
+  "urls": ["http://localhost:8080/AM-GP/areautenti/tecnico/ListaSetup.jsp", "http://localhost:8080/AM-GP/ViewSetupControl?idSetup=1", "http://localhost:8080/AM-GP/ViewSetupControl?idSetup=", "http://localhost:8080/AM-GP/ViewSetupControl?idSetup=-1"],
+  "plugins": []
+}

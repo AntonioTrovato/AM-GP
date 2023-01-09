@@ -1,0 +1,1336 @@
+@charset "UTF-8";
+
+
+/*++++++++++++++++++++++ ERROR PAGE ++++++++++++++++++++++++++*/
+
+#errorMessage2 {
+		background-color: #cb2929;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-family: Arial;
+		padding: 10px 15px;
+		box-shadow: 5px 5px black;
+		display: none;
+}
+
+
+#errorH1 {
+	font-family:Arial;
+	font-size:100px;
+	margin-left:20%;
+}
+
+
+#errorP{
+	margin-top:5px;
+	margin-left:25%;
+	font-family:Arial;
+	font-size:20px;
+}
+
+
+
+#error_div{
+	position:static;
+	margin-top:-550px;
+	margin-left:50%;
+	width:45%;
+	height:400px;
+	background-color:#ffcccc;
+	border-radius:20px;
+	border-style:solid; 
+	border-color:#f5f5f0;
+}
+
+
+/******************/
+
+#buttonGroupModSetup{	
+	margin-left:40%;
+	margin-top:50px;
+
+}
+
+
+#buttonGroupModSetup #buttonSalva{	
+	height:30px;
+	width:100px;
+}
+/*++++++++++++++++++++++ GESTIONE SETUP ++++++++++++++++++++++++++*/
+#h1GestioneSetup{
+	width:400px;
+	height:80px;
+	font-size:20px;
+	font-family:Arial;
+	margin-left:35%;
+}
+
+
+#containerGestioneSetup{
+	border-radius:10px;
+	width:60%;
+	margin-top:0px;
+	height:700px;
+	font-family:Arial;
+	margin-left:20%;
+}
+
+#containerGestioneSetup #containerLabel{
+	border-radius:10px;
+	background-color:#ffcccc;
+	padding:20px;
+	width:90%;
+	margin-top:1px;
+	height:560px;
+	font-family:Arial;
+	margin-left:20px;
+}
+
+
+#containerGestioneSetup #containerLabel div{
+	margin-top:35px;
+	margin-left:20px;
+}
+	
+
+
+
+
+#buttonGrupSetup{
+	margin-top:10px;
+	margin-left:17%;
+}
+
+#buttonGrupSetup input{
+	margin-left:50px;
+	width:100px;
+	height:30px;
+}
+/*++++++++++++++++++++++ CLASSIFICA ++++++++++++++++++++++++++*/
+#h1Classifica{
+	font-family:Arial;
+	font-size:50px;
+	margin-left:550px;
+	
+}
+
+#tableClassificaDiv {
+	margin-top:50px;
+	
+}
+
+#tableClassificaDiv table {
+	margin-left:200px;
+	text-align:center;
+	border-collapse:collapse;	
+
+	
+ 	
+}
+
+#tableClassificaDiv table td,#tableClassificaDiv table th {
+	font-family:Arial;
+	border:1px solid #ddd;
+	padding:8px;
+}
+
+
+
+
+
+
+
+ #tableClassificaDiv table #pilotaClass{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:30px;
+	max-height:30px;
+	width:400px;
+	max-width:400px;
+	
+ }
+
+ #punteggioClass,#nVittorieClass, #nPoleClass, #nPiazzaClass, #nRitiriClass{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:30px;
+	max-height:30px;
+	width:70px;
+	max-width:70px;
+	
+ }
+
+
+#tableClassificaDiv table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ 
+ 
+
+/*++++++++++++++++++++++ VIEW MESSAGGIO ++++++++++++++++++++++++++*/
+#viewMessaggio{
+	font-family:Arial;
+	margin-left:30%;
+	margin-top:-300px;
+}
+
+#viewMessaggio #textareaView{
+	overflow-y: scroll;
+        height: 300px;
+        width:80%;
+        resize: none;
+}
+
+/*++++++++++++++++++++++ VIEW CIRCUITO ++++++++++++++++++++++++++*/
+
+#containerCircuito{
+	border-radius:10px;
+	background-color:#ffcccc;
+	width:50%;
+	height:10%;
+	margin-left:350px;
+	padding:30px;
+}
+
+
+
+
+#h1ViewCircuito{
+	font-family:Arial;
+	margin-left:350px;
+}
+
+
+
+#containerCircuito p{
+	padding:5px;
+	font-family:Arial;
+	font-size:17px;
+}
+
+#containerCircuito img{
+	margin-top:-150px;
+	margin-left:60%;;
+	width:40%;
+	height:300px;
+}
+
+/*++++++++++++++++++++++ VIEW SETUP ++++++++++++++++++++++++++*/
+#pulsanteRitorno{
+	text-align:center;
+	border-style:solid;
+	border-color:gray;
+	border-radius:10px;
+	width:100px;
+	height:50px;
+	margin-left:350px;
+	margin-top:40px;
+}
+
+#pulsanteRitorno a{
+	font-size:20px;
+	font-family:Arial;
+	text-decoration:none;
+	color:black;
+}
+
+#pulsanteRitorno a:hover{
+	color:gray;
+}
+
+#pViewSetup a{
+	font-family:Arial;
+	text-decoration:underline;
+	color:black;
+}
+
+#pViewSetup a:hover{
+	color:gray;
+} 
+
+#containerSetup{
+	border-radius:10px;
+	background-color:#ffcccc;
+	width:50%;
+	height:500px;
+	margin-left:350px;
+	padding:30px;
+}
+
+#h1ViewSetup{
+	font-family:Arial;
+	margin-left:350px;
+}
+
+
+
+#containerSetup p{
+	padding:5px;
+	font-family:Arial;
+	font-size:17px;
+}
+/*++++++++++++++++++++++ SELEZIONA CIRCUITO ++++++++++++++++++++++++++*/
+#selezionaCircuitoDiv #pSelezionaCircuito{
+	font-family:Arial;
+	font-size:30px;
+	margin-left:400px;
+}
+
+
+
+#selezionaCircuitoDiv #selectCircuitoForm #selectCircuito{
+	width:400px;
+	height:30px;
+	margin-left:500px;
+}
+  
+  
+#selezionaCircuitoDiv #selectCircuitoForm #buttonSelectCircuito{
+	margin-top:30px;
+	margin-left:650px;
+}
+    
+  
+/*+++++++++++++++++++++++ LISTA SETUP ++++++++++++++++++++++++++*/
+
+
+#h1SetupList{
+	font-family:Arial;
+	font-size:50px;
+	margin-left:550px;
+	
+}
+
+#tableSetupDiv {
+	margin-top:50px;
+	
+}
+
+#tableSetupDiv table {
+	margin-left:100px;
+	text-align:center;
+	border-collapse:collapse;	
+
+	
+ 	
+}
+
+#tableSetupDiv table td,#tableSetupDiv table th {
+	font-family:Arial;
+	border:1px solid #ddd;
+	padding:8px;
+}
+
+
+
+
+#tableSetupDiv table td a,#tableSetupDiv table td  {
+	color:black;
+	text-decoration:none;
+	
+	
+}
+
+
+#tableSetupDiv table #idSetup {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:50px;
+	max-height:50px;
+	width:500px;
+	max-width:700px;
+}
+
+#tableSetupDiv table  #dataSetup{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:50px;
+	max-height:50px;
+	width:300px;
+	max-width:700px;
+}
+#tableSetupDiv table #pulsanteViewSetup {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:50px;
+	max-height:50px;
+	width:200px;
+	max-width:200px;
+}
+
+#tableSetupDiv table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ 
+ 
+#rigModificaSetup{
+	width:100px;
+} 
+ 
+#linkSetup:hover, #modificaSetup:hover{
+	color:gray;
+	text-decoration:underline;
+}
+
+
+#linkSetup, #modificaSetup{
+	text-decoration:underline;
+}
+
+
+#tableSetupDiv table #eliminaSetupTD{
+	width:50px;
+}
+
+#eliminaSetup:hover{
+	color:gray;
+}
+
+#linkSetup:visited, #eliminaSetup:visited, #modificaSetup:visited{
+	text-decoration:underline;
+}
+
+
+#tableSetupDiv p{
+	font-size:30px;
+	margin-left:550px;
+}
+
+/*+++++++++++++++++++++++ LISTA CIRCUITI ++++++++++++++++++++++++++*/
+#h1Circuiti{
+	font-family:Arial;
+	font-size:50px;
+	margin-left:550px;
+	
+}
+
+#tableCircuitiDiv {
+	margin-top:50px;
+	
+}
+
+#tableCircuitiDiv table {
+	margin-left:200px;
+	text-align:center;
+	border-collapse:collapse;	
+
+	
+ 	
+}
+
+#tableCircuitiDiv table td,#tableCircuitiDiv table th {
+	font-family:Arial;
+	border:1px solid #ddd;
+	padding:8px;
+}
+
+
+
+
+#tableCircuitiDiv table td a,#tableCircuitiDiv table td  {
+	color:black;
+	text-decoration:none;
+	
+	
+}
+
+
+#tableCircuitiDiv table #nomeCircuito {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:50px;
+	max-height:50px;
+	width:700px;
+	max-width:700px;
+}
+
+#tableCircuitiDiv table #pulsanteCircuito {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:50px;
+	max-height:50px;
+	width:200px;
+	max-width:200px;
+}
+
+#tableCircuitiDiv table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ 
+ 
+#tableCircuitiDiv table td a:hover{
+	color:gray;
+	text-decoration:underline;
+}
+
+#tableCircuitiDiv table td a:visited{
+	text-decoration:underline;
+}
+
+
+#tableCircuitiDiv p{
+	font-size:30px;
+	margin-left:520px;
+}
+
+
+/*+++++++++++++++++++++++ MESSAGGI INVIATI ++++++++++++++++++++++++++*/
+
+#tableMessaggi {
+	margin-top:-300px;
+	
+}
+
+#tableMessaggi table {
+	margin-left:350px;
+	text-align:center;
+	border-collapse:collapse;	
+	
+	
+ 	
+}
+
+#tableMessaggi table td,#tableMessaggi table th {
+	font-family:Arial;
+	border:1px solid #ddd;
+	padding:8px;
+}
+
+
+#tableMessaggi table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+#tableMessaggi table td a,#tableMessaggi table td  {
+	color:black;
+	text-decoration:none;
+	
+	
+}
+
+
+#tableMessaggi table td  {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:20px;
+	max-height:20px;
+	width:300px;
+	max-width:300px;
+}
+
+ 
+ 
+#tableMessaggi table td a:hover{
+	color:gray;
+	text-decoration:underline;
+}
+
+#tableMessaggi table td a:visited{
+	text-decoration:underline;
+}
+
+
+#tableMessaggi p{
+	font-size:30px;
+	margin-left:600px;
+}
+
+/*+++++++++++++++++++++++ NUOVO MESSAGGIO ++++++++++++++++++++++++++*/
+
+#navMessaggioDiv table {
+	margin-left:30px;
+	text-align:center;
+	width:200px;
+	height:300px;
+	border-collapse:collapse;	
+}
+
+
+#navMessaggioDiv table td,#navMessaggioDiv table th {
+	border:1px solid #ddd;
+	padding:8px;
+}
+
+
+#navMessaggioDiv #rigaUnoMessaggio,#navMessaggioDiv #rigaTreMessaggio {
+	background-color:#ffcccc;
+}
+
+
+
+
+#navMessaggioDiv table td a{
+	color:black;
+	text-decoration:none;
+	font-family:Arial;
+
+}
+
+
+#navMessaggioDiv table td a:hover{
+	color:gray;
+	text-decoration:none;
+}
+
+
+#navMessaggioDiv table td a:visited{
+	text-decoration:none;
+}
+
+#formNuovoMessaggioDiv #divCorpo #corpoNuovoMessaggio{
+	border: 1px solid #323232; 
+	height: 300px;
+	line-height: 30px;
+	width: 600px;
+	padding: 0 10px; 
+	font-family:Arial;
+	margin-left:-40px;
+}
+
+
+#formNuovoMessaggioDiv{
+	margin-left:40%;
+	margin-top:-300px;
+}
+
+#formNuovoMessaggioDiv label{
+	font-family:Arial;
+}
+
+
+#formNuovoMessaggioDiv #buttonNuovoMessaggio {
+		margin-left:50%;;
+		width:120px;
+		height:40px;
+}
+
+
+#formNuovoMessaggioDiv #divCaricaFile a {
+		text-decoration:none;
+		
+}
+
+#formNuovoMessaggioDiv #divCaricaFile a:hover{
+		color:gray;
+		text-decoration:none;
+		
+}
+
+
+
+
+
+/*+++++++++++++++++++++++ SELEZIONA CIRCUITO ++++++++++++++++++++++++++*/
+#gestioneSetupDiv{
+	margin-left:30%;
+	
+}
+
+#gestioneSetupDiv h1{
+	font-size:400%;
+	font-family:Arial;
+	
+}
+
+#gestioneSetupDiv p{
+	margin-left:55px;
+	margin-top:-10px;
+	font-family:Arial;
+	margin-bottom:50px;
+	
+}
+
+
+#gestioneSetupDiv #caricaSetup a, #gestioneSetupDiv #nuovoSetup a{
+	text-decoration:none;
+	font-family: Arial;
+	color:black;
+	font-size:20px;
+	
+	
+} 
+
+
+#gestioneSetupDiv #caricaSetup, #gestioneSetupDiv #nuovoSetup{
+	margin-left:40px;
+	position:relaive;
+	padding-top:30px;
+	margin-right:80px;
+	border-radius:10px;
+	border-style:solid; 
+	border-color:#8d8d8b;
+	padding:25px;
+	height:200px;
+	width:500px;
+	display:inline;
+	
+}
+
+
+
+#gestioneSetupDiv #caricaSetup:hover, #gestioneSetupDiv #nuovoSetup:hover{
+	background-color:#8d8d8b;
+}
+
+
+
+
+
+#gestioneSetupDiv #caricaSetup a:hover, #gestioneSetupDiv #nuovoSetup a:hover{
+	text-decoration:none;
+	font-family: Arial;
+	color:gray;
+	font-size:20px;
+	
+} 
+
+/*+++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++*/
+#footer{
+	width:150%;
+	height:200px;
+	background-color:#ffcccc;
+	margin-left:-45%;
+	margin-top:500px;
+}
+
+
+
+#footer #footerLogoDiv #footerLogo{
+	margin-left:30%;
+	width:10%;
+	height:200px;
+}
+
+
+
+
+#footer #contattiFooter{
+	margin-left:80%;
+	margin-top:-100px;
+}
+
+
+#footer #infoFooter{
+	margin-left:50%;
+	margin-top:-200px;
+}
+/*+++++++++++++++++++++++ NAVBAR ++++++++++++++++++++++++++*/
+
+nav{
+	background-color:#ffcccc;
+	border-color:#f5f5f0;
+	margin-top:-20px;
+	margin-left:-10px;
+	margin-bottom:60px;
+	height:40px;
+	width:102%;
+}
+
+nav  #navSandwich{
+	display:none;
+}
+
+nav  #navClose{
+	display:none;
+}
+
+
+nav  .topNav li{
+	display:inline-block;
+	margin-top:10px;
+	padding-right:7%;
+}
+
+
+nav .topNav li a{
+	text-decoration:none;
+	font-family: Arial;
+	color:black;
+	font-size:20px;
+}
+
+nav .topNav li a:hover{
+	text-decoration:none;
+	color:grey;
+}
+
+
+/*+++++++++++++++++++++++ HEADER ++++++++++++++++++++++++++*/
+#headerDiv{
+	margin-top:-20px;
+	margin-left:-20px;
+	margin-right:-20px;
+	height:200px;
+	
+}
+#headerDiv #logoHeader{
+	width:300px;
+	margin-left:40%;
+	height:250px;
+	
+}
+
+/*+++++++++++++++++++++++ LOGINPAGE ++++++++++++++++++++++++++*/
+#logoLogin{
+	margin-top:50px;
+	margin-left:-50px;
+}
+
+#logoLogin #logoLog{
+	width:50%;
+	height:700px;
+}
+
+
+#loginForm_div{
+	position:static;
+	margin-top:-550px;
+	margin-left:50%;
+	width:45%;
+	height:400px;
+	background-color:#ffcccc;
+	border-radius:20px;
+	border-style:solid; 
+	border-color:#f5f5f0;
+}
+
+
+#loginForm_div p{
+	padding-top:40px;
+	padding-left:110px;
+	font-size:20px;
+	font-family: Arial;
+
+}
+
+
+#loginForm_div form #userID,#loginForm_div form #userPass{
+	font-size:20px;
+	font-family: Arial;
+	margin-left:110px;
+	width:70%;
+	height:35px;
+	border-radius:10px;
+}
+
+#loginForm_div form #loginButton{
+	margin-top:30px;
+	margin-left:250px;
+	width:150px;
+	height:50px;
+	border-radius:10px;
+}
+
+
+@media screen and (max-width: 768px) {
+/*++++++++++++++++++++++ CLASSIFICA ++++++++++++++++++++++++++*/
+#h1Classifica{
+	margin-left:100px;
+	
+}
+
+
+#tableClassificaDiv table {
+	margin-left:5px;
+	
+}
+
+#tableClassificaDiv table td,#tableClassificaDiv table th {
+	font-size:11px;
+	font-family:Arial;
+	border:1px solid #ddd;
+	padding:8px;
+	width:50px;
+	max-width:50px;
+	word-wrap:normal;
+}
+
+ #tableClassificaDiv table #pilotaClass{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:30px;
+	max-height:30px;
+	width:150px;
+	max-width:150px;
+	
+ }
+
+ #punteggioClass,#nVittorieClass, #nPoleClass, #nPiazzaClass, #nRitiriClass{
+	word-wrap:normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:30px;
+	max-height:30px;
+	width:50px;
+	max-width:50px;
+	
+ }
+
+
+#tableClassificaDiv table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ 
+	
+
+
+/*++++++++++++++++++++++ VIEW MESSAGGIO ++++++++++++++++++++++++++*/
+#viewMessaggio{
+	font-family:Arial;
+	margin-left:10px;
+	margin-top:100px;
+}
+
+#viewMessaggio #textareaView{
+	overflow-y: scroll;
+    height: 300px;
+    width:450px;
+    resize: none;
+}
+
+/*++++++++++++++++++++++ VIEW CIRCUITO ++++++++++++++++++++++++++*/
+	
+#containerCircuito{
+	border-radius:10px;
+	background-color:#ffcccc;
+	height:700px;
+	width:400px;
+	padding:30px;
+	margin-left:20px;
+}
+
+#h1ViewCircuito{
+	font-family:Arial;
+	margin-left:30px;
+}
+
+
+#containerCircuito img{
+	width:230px;
+	height:230px;
+	margin-top:70px;
+	margin-left:200px;
+}
+
+	
+/*++++++++++++++++++++++ VIEW SETUP ++++++++++++++++++++++++++*/
+#pulsanteRitorno{
+	margin-left:10px;
+	margin-top:70px;
+}
+
+
+
+#containerSetup{
+	border-radius:10px;
+	background-color:#ffcccc;
+	height:500px;
+	width:400px;
+	padding:30px;
+	margin-left:20px;
+}
+
+#h1ViewSetup{
+	font-family:Arial;
+	margin-left:30px;
+}
+
+
+
+/*++++++++++++++++++++++ SELEZIONA CIRCUITO ++++++++++++++++++++++++++*/
+#selezionaCircuitoDiv #pSelezionaCircuito{
+	font-family:Arial;
+	font-size:20px;
+	margin-left:40px;
+}
+
+
+#selezionaCircuitoDiv #selectCircuitoForm #selectCircuito{
+	width:400px;
+	height:30px;
+	margin-left:40px;
+}
+  
+  
+#selezionaCircuitoDiv #selectCircuitoForm #buttonSelectCircuito{
+	margin-top:30px;
+	margin-left:200px;
+}
+    
+/*+++++++++++++++++++++++ LISTA SETUP ++++++++++++++++++++++++++*/
+
+#h1SetupList{
+	font-family:Arial;
+	font-size:50px;
+	margin-left:120px;
+	
+}
+
+#tableSetupDiv{
+	margin-top:-350px;
+	
+}
+
+#tableSetupDiv table {
+	margin-top:400px;
+	margin-left:5px;
+	text-align:center;
+	border-collapse:collapse;	
+}
+
+
+#h1Circuiti{
+	font-family:Arial;
+	font-size:50px;
+	margin-left:120px;
+	
+}
+
+#tableSetupDiv p{
+	margin-top:400px;
+	font-size:30px;
+	margin-left:120px;
+}
+	
+/*+++++++++++++++++++++++ LISTA CIRCUITI ++++++++++++++++++++++++++*/
+
+#tableCircuitiDiv {
+	margin-top:-350px;
+	
+}
+
+#tableCircuitiDiv table {
+	margin-top:400px;
+	margin-left:5px;
+	text-align:center;
+	border-collapse:collapse;	
+}
+
+
+#h1Circuiti{
+	font-family:Arial;
+	font-size:50px;
+	margin-left:120px;
+	
+}
+
+#tableCircuitiDiv p{
+	margin-top:10px;
+	font-size:30px;
+	margin-left:80px;
+}
+	
+/*+++++++++++++++++++++++ MESSAGGI INVIATI ++++++++++++++++++++++++++*/
+
+#tableMessaggi {
+	margin-top:-300px;
+	
+}
+
+#tableMessaggi table {
+	margin-top:400px;
+	margin-left:5px;
+	text-align:center;
+	border-collapse:collapse;	
+	
+	
+ 	
+}
+
+
+#tableMessaggi table td  {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:10px;
+	max-height:10px;
+	width:200px;
+	max-width:200px;
+}
+
+
+#tableMessaggi p{
+	margin-top:500px;
+	font-size:30px;
+	margin-left:80px;
+}
+
+/*+++++++++++++++++++++++ NUOVO MESSAGGIO ++++++++++++++++++++++++++*/
+
+#navMessaggioDiv{
+	margin-left:100px;
+
+}
+
+#formNuovoMessaggioDiv{
+	margin-left:80px;
+	margin-top:100px;
+}
+
+
+#formNuovoMessaggioDiv #divCorpo #corpoNuovoMessaggio{
+	height: 200px;
+	width: 350px;
+	margin-left:-40px;
+}
+
+
+#formNuovoMessaggioDiv #buttonNuovoMessaggio {
+		margin-left:100px;
+		margin-top:20px;
+}
+
+
+
+/*+++++++++++++++++++++++ SELEZIONA CIRCUITO ++++++++++++++++++++++++++*/
+
+
+#gestioneSetupDiv h1{
+	margin-left:-30px;
+	font-size:50px;
+	font-family:Arial;
+	
+}
+
+#gestioneSetupDiv p{
+	margin-left:-80px;
+	margin-top:-10px;
+	font-family:Arial;
+	margin-bottom:50px;
+	
+}
+
+
+
+
+
+#gestioneSetupDiv #caricaSetup, #gestioneSetupDiv #nuovoSetup{
+	margin-top:20px;
+	margin-left:-20px;
+	height:50px;
+	width:200px;
+	display:block;
+	
+}
+
+
+
+
+#gestioneSetupDiv #caricaSetup a, #gestioneSetupDiv #nuovoSetup a{
+	
+	padding:30px;
+	
+} 
+
+/*+++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++*/
+#footer {
+	margin-left:-10px;
+	margin-top:400px;
+	height:300px;
+	width:502px;
+}
+
+#footer #contattiFooter{
+	margin-left:180px;
+	margin-top:50px;
+	font-size:15px;
+}
+
+
+#footer #infoFooter{
+	margin-left:180px;
+	font-size:15px;
+	
+}
+
+#footer #footerLogoDiv #footerLogo{
+	margin-left:10px;
+	width:180px;
+	height:200px;
+}
+
+/*+++++++++++++++++++++++ NAVBAR ++++++++++++++++++++++++++*/
+
+nav{
+	width:150%;
+	margin-top:0px;
+}
+
+
+nav #navSandwich{
+	float:left;
+	font-size:30px;
+	margin-left:20px;
+	display:block;
+	z-index:1;
+		}
+		
+
+
+nav #navClose{
+	float:left;
+	font-size:30px;
+	margin-left:20px;
+	display:none;
+		}
+		
+	
+
+nav .navSandwich{
+	position:absolute;
+	display:block;
+	z-index:230;
+}
+
+
+nav .topNav{
+	width:302px;
+	display:none;
+	text-align:center;
+	position:absolute;
+	background-color:#ffcccc;
+	margin-top:30px;
+	height:60%;
+	padding:100px;
+	z-index:1;
+	
+			}
+			
+
+
+.topNav li{
+	display:none;
+	padding:5px;
+	margin-bottom:50px;
+	margin-top:50px;
+	margin-left:-100px;
+	width:460px;
+	background-color:#ffcccc;
+	
+}
+/*nav #navSandwich{
+	font-size:20px;
+	position:absolute;
+	margin-top:10px;
+	padding-left:20px;
+	display:block;
+	z-index:2;
+}
+
+nav #navClose{
+	display:block;
+	font-size:20px;
+	position:absolute;
+	margin-top:10px;
+	padding-left:20px;
+	z-index:2;
+}
+*/
+
+/*+++++++++++++++++++++++ HEADER ++++++++++++++++++++++++++*/
+#headerDiv #logoHeader{
+	margin-left:120px;
+		
+}
+	
+/*+++++++++++++++++++++++ LOGINPAGE ++++++++++++++++++++++++++*/
+
+#logoLogin{
+	margin-top:-150px;
+	padding-left:30px;
+	
+}
+
+#logoLogin #logoLog{
+	width:500px;
+	height:500px;
+}
+
+
+#loginForm_div{
+	margin-top:-150px;
+	margin-left:10px;
+	width:450px;
+	height:400px;
+	background-color:#ffcccc;
+	border-radius:20px;
+	border-style:solid; 
+	border-color:#f5f5f0;
+}
+
+
+#loginForm_div form #userID,#loginForm_div form #userPass,#loginForm_div form p{
+	margin-left:70px;
+}
+
+#loginForm_div form #loginButton{
+	margin-left:150px;
+}
+/*++++++++++++++++++++++ GESTIONE SETUP ++++++++++++++++++++++++++*/
+#h1GestioneSetup{
+	margin-left:70px;
+}
+
+
+#containerGestioneSetup{
+	width:470px;
+	height:750px;
+	margin-left:10px;
+}
+
+#containerGestioneSetup #containerLabel{
+	font-size:15px;
+	width:420px;
+	margin-top:1px;
+	height:600px;
+	margin-left:1px;
+}
+
+
+#containerGestioneSetup #containerLabel div{
+	margin-left:10px;
+}
+	
+
+
+
+#buttonGrupSetup{
+	margin-left:-20px;
+}
+
+/**************** ERRROR ***************/
+#error_div{
+	margin-top:-150px;
+	margin-left:10px;
+	width:450px;
+	height:400px;
+	background-color:#ffcccc;
+	border-radius:20px;
+	border-style:solid; 
+	border-color:#f5f5f0;
+}
+
+
+
+#errorH1 {
+	margin-left:40px;
+}
+
+
+#errorP{
+	font-size:15px;
+	margin-left:50px;
+
+}
+}
